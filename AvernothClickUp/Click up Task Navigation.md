@@ -1,4 +1,6 @@
 
+##  ClickUp Task Navigation
+
 I just wanted to get everyone up to speed on how we’ll be assigning tasks going forward.
 
 We’ll be using ClickUp for task delegation, and this will be managed by the leadership team—primarily by me (Andre). So if you have any questions about a task, please come to me.
@@ -37,11 +39,11 @@ Below is example of how one would navigate the click up
 5.**Click the link icon to view any added links**
 ![Links](Attachments/Links.jpg)
 
-**Important**
+## Important Task Responsibilities 
 
 Team members are not responsible for closing their task, that will be done by leadership they only need to review the information given to them. 
 
-In order for any task to be closed, it has to be reviewed by one of the Producers, Dimitri, Chelle, or anyone else with a lead role
+In order for any task to be closed, it has to be reviewed by one of the Producers (Me or Leo), Dimitri, Chelle, or anyone else with a lead role.
 
 
 It's essential that all team members review these sections when beginning a task. This helps prevent mistakes and clears up any confusion before work starts.
@@ -57,4 +59,4 @@ This is especially important since we often use platforms like **PureRef**, **Mi
 
 **Please make it a habit to check all of these sections before starting any task.** This will ensure clarity and help keep everyone aligned.
 
-React with a "thumbs down" emoji if you read the whole thang. 
+**React with a "thumbs down"  emoji if you read the whole thang** 
