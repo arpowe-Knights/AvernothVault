@@ -22,20 +22,20 @@ Below is example of how one would navigate the click up
 
 1.**Open ClickUp and locate the Parent Task**
 
-![[Parent Task.jpg]]
+![Parent Task](Attachments/Parent%20Task.jpg)
 
 2.**Read the Parent Task description**
 
-![[Description.jpg]]
+![Description](Attachments/Description.jpg)
 
 3.**Check the "Subtask" section for assigned tasks**
-![[Subtasks.jpg]]
+![Subtasks](Attachments/Subtasks.jpg)
 
 4.**Scroll to check for any Attachments**
-![[Attachments.jpg]]
+![Attachments](Attachments/Attachments.jpg)
 
 5.**Click the link icon to view any added links**
-![[Links.jpg]]
+![Links](Attachments/Links.jpg)
 
 **Important**
 
