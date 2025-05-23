@@ -1,6 +1,8 @@
 
 ##  ClickUp Task Navigation
 
+
+
 I just wanted to get everyone up to speed on how we’ll be assigning tasks going forward.
 
 We’ll be using ClickUp for task delegation, and this will be managed by the leadership team—primarily by me (Andre). So if you have any questions about a task, please come to me.
@@ -59,4 +61,8 @@ This is especially important since we often use platforms like **PureRef**, **Mi
 
 **Please make it a habit to check all of these sections before starting any task.** This will ensure clarity and help keep everyone aligned.
 
-**React with a "thumbs down"  emoji if you read the whole thang** 
+**React with a "thumbs down"  emoji if you read the whole thang ALSO** 
+
+
+**TURN ON DARK MODE!!!!**
+![Themes](Attachments/Themes.jpg)
