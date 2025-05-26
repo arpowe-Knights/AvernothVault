@@ -26,20 +26,20 @@ Below is example of how one would navigate the click up
 
 1.**Open ClickUp and locate the Parent Task**
 
-![Parent Task](Parent%20Task.jpg)
+![Parent Task](Attachments/Parent%20Task.jpg)
 
 2.**Read the Parent Task description**
 
-![Description](Description.jpg)
+![Description](Attachments/Description.jpg)
 
 3.**Check the "Subtask" section for assigned tasks**
-![Subtasks](Subtasks.jpg)
+![Subtasks](Attachments/Subtasks.jpg)
 
 4.**Scroll to check for any Attachments**
-![Attachments](Attachments.jpg)
+![Attachments](Attachments/Attachments.jpg)
 
 5.**Click the link icon to view any added links**
-![Links](Links.jpg)
+![Links](Attachments/Links.jpg)
 
 ## Important Task Responsibilities 
 
@@ -65,4 +65,4 @@ This is especially important since we often use platforms like **PureRef**, **Mi
 
 
 **TURN ON DARK MODE!!!!**
-![Themes](Themes.jpg)
+![Themes](Attachments/Themes.jpg)

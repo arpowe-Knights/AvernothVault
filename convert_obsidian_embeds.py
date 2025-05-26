@@ -20,8 +20,9 @@ def convert_embeds(md_file):
 
     def replacer(match):
         filename = match.group(1)
-        # If in a folder like Attachments/, prepend that
-        return f'![{os.path.splitext(filename)[0]}]({IMAGE_FOLDER}/{filename.replace(" ", "%20")})'
+        # Remove any folder prefix from filename to avoid double pathing
+        filename_only = os.path.basename(filename)
+        return f"![{os.path.splitext(filename_only)[0]}]({IMAGE_FOLDER}/{filename_only.replace(' ', '%20')})"
 
     converted = re.sub(pattern, replacer, content)
 
