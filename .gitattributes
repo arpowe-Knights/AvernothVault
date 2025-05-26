@@ -3,4 +3,3 @@ Process.md filter=lfs diff=lfs merge=lfs -text
 Avernoth filter=lfs diff=lfs merge=lfs -text
 Animation filter=lfs diff=lfs merge=lfs -text
 References filter=lfs diff=lfs merge=lfs -text
-Avernoth[[:space:]]Animation[[:space:]]References[[:space:]]and[[:space:]]Process.md filter=lfs diff=lfs merge=lfs -text
