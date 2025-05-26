@@ -51,7 +51,7 @@ Dashing would most visibly showcase this relationship between Allister's magic a
 
 Reference video: Dashing
 
-![SideStep](Attachments/SideStep.mp4)
+https://youtu.be/58PTMHII8HE
 
 
 ### Jumping
@@ -60,7 +60,7 @@ Jumping animations should continue the theme of agility, emphasizing a light and
 
 Reference video: Jumping
 
-<video src="Attachments/JumpAnimation.mp4" controls></video>
+https://youtu.be/ZET9Y4IaIZo
 
 ### Running
 
