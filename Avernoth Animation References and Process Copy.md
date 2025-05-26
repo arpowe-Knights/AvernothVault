@@ -31,7 +31,7 @@ Drawing from this, I wanted to capture the sense of channeling and releasing mag
 
 _Spellbreak_, a magic-focused battle royale game, provides a useful reference. Characters are constantly channeling magic, then exerting force in a deliberate direction. This serves as a strong contemporary for how we can approach Allister's animations
 
-![[Ice_Archer_Tox.png]]
+![Ice_Archer_Tox](Attachments/Ice_Archer_Tox.png)
 
 
 ![Spell break](Attachments/Spell%20break.gif)
@@ -60,7 +60,7 @@ Jumping animations should continue the theme of agility, emphasizing a light and
 
 Reference video: Jumping
 
-![[JumpAnimation.mp4]]
+<video src="Attachments/JumpAnimation.mp4" controls></video>
 
 ### Running
 
