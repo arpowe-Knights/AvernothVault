@@ -11,7 +11,7 @@ Avernoth features exclusively ranged combat. The player controls a powerful mage
 In the world of Avernoth, magic is fundamental. My initial concept for spellcasting was based on **incantations**—a performative style of magic focused on channeling and manifesting magical power through elaborate movements.
 This direction calls for substantial animation work, as incantation spells require visually expressive motion. They also take alot of time to ready and fire, it's important to balance cast time  with the game’s pacing. No single movement should consume too much "animation time" nor slow down gameplay.
 
-![SkyrimIncan](Attachments/SkyrimIncan.gif)
+![SkyrimIncan](SkyrimIncan.gif)
 
 
 ### Closer to What We Want: Avatar and Martial Arts
@@ -19,22 +19,22 @@ This direction calls for substantial animation work, as incantation spells requi
 I then came to me the idea of **martial arts**. Martial arts emphasize quick, purposeful movements and controlled force. _Avatar: The Last Airbender_ inspired this approach, as they blend powers and martial arts. 
 In the show, fighters channel elemental powers through established martial art techniques, making each action feel deliberate and impactful. 
 
-![KorraBending](Attachments/KorraBending.gif)
+![KorraBending](KorraBending.gif)
 
 Drawing from this, I wanted to capture the sense of channeling and releasing magical force, but in a way that is both manageable to animate and appropriate for Avernoth’s lore.  Animating full karate or tai chi routines isn’t practical or thematically fitting, but the concept: flair, swift, expressive, and focused movements—can be incorporated into spellcasting.
 
 
-![Azula](Attachments/Azula.gif)
+![Azula](Azula.gif)
 
 
 ### What we ACTUALLY do Want: SpellBreak
 
 _Spellbreak_, a magic-focused battle royale game, provides a useful reference. Characters are constantly channeling magic, then exerting force in a deliberate direction. This serves as a strong contemporary for how we can approach Allister's animations
 
-![Ice_Archer_Tox](Attachments/Ice_Archer_Tox.png)
+![Ice_Archer_Tox](Ice_Archer_Tox.png)
 
 
-![Spell break](Attachments/Spell%20break.gif)
+![Spell break](Spell%20break.gif)
 
 **Tomes** in Avernoth serve as extensions of the mage’s magical ability—comparable to how ordinary people use tools. Swinging an axe, throwing a spear, or hammering a nail are conceptually similar to how Allister wields their tome.
 
