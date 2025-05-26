@@ -9,7 +9,7 @@ IMAGE_FOLDER = "Attachments"
 
 # File extensions to consider
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".gif", ".webp")
-VIDEO_EXTENSIONS = (".mp4", ".mov", ".webm")
+
 
 def convert_embeds(md_file):
     with open(md_file, 'r', encoding='utf-8') as f:
@@ -20,18 +20,8 @@ def convert_embeds(md_file):
 
     def replacer(match):
         filename = match.group(1)
-        ext = os.path.splitext(filename)[1].lower()
-        file_url = f"{IMAGE_FOLDER}/{filename.replace(' ', '%20')}"
-        name = os.path.splitext(filename)[0]
-
-        if ext in IMAGE_EXTENSIONS:
-            return f"![{name}]({file_url})"
-        elif ext in VIDEO_EXTENSIONS:
-            # Use HTML for video embed
-            return f'<video src="{file_url}" controls></video>'
-        else:
-            # Default: just a link
-            return f"[{name}]({file_url})"
+        # If in a folder like Attachments/, prepend that
+        return f'![{os.path.splitext(filename)[0]}]({IMAGE_FOLDER}/{filename.replace(" ", "%20")})'
 
     converted = re.sub(pattern, replacer, content)
 
