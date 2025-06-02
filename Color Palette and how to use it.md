@@ -156,4 +156,3 @@ Used sparingly to draw attention and imply importance or interaction.
 
 ---
 
-If you want, I can also turn this into a hex color palette reference or give you a Unity/Unreal color grading LUT setup based on this breakdown.
