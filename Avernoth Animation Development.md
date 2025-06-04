@@ -3,7 +3,8 @@
 Yea James you literally don't have to read anything else since I found the already rigged Maya file of Manny lol. This document pretty much breaks down the workflow I have to do. Just scroll down to the playlist animations.
 The gap in this workflow is that if I don't weight paint properly you animations can be messed up though so keep that in mind when animating. Keep it "stiff"
 
-[[Attachments/Pasted image 20250604030949.png]]
+![Pasted image 20250604030949](Attachments/Pasted%20image%2020250604030949.png)
+
 
 #### Video of Maya workflow
 https://www.youtube.com/shorts/2bRF-4QG9AQ
