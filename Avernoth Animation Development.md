@@ -9,6 +9,10 @@ The gap in this workflow is that if I don't weight paint properly you animations
 #### Video of Maya workflow
 https://www.youtube.com/shorts/2bRF-4QG9AQ
 
+#### Assets Maya
+https://gumroad.com/d/a22ff08b4944d74c7733c439c83a8a94
+
+
 # UE5 Mannequin ←→ Blender Animation Workflow
 
 ### **Character Rigging and Animation Workflow**
