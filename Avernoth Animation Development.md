@@ -104,22 +104,22 @@ https://youtu.be/oKfrD1GJ0qU?si=dyO1X-NQOfALsI8t&t=179
 - Using Mixamo Animations And Mocap works a little weird in Cascadeur. You can't directly send animations into Cascadeur because It has no retargeting software for non Pro Users. The workaround is to 
 1. First Create a scene with a UE5 Character
 2. Export the character with only Object Selected should look like this:
-   ![[Attachments/Pasted image 20250708233034.png]]
+   ![Pasted image 20250708233034](Attachments/Pasted%20image%2020250708233034.png)
 3. Once you export the the character take it to mixamo, find the animation you want, and upload the Character FBX you exported I name mine "MannyCAS.fbx"
 4. Once your character upload you now want to export that character from mixamo without the character so purely the animation this step is important.
 	- It's important because Mixamo retargets the animation to the character's Rig so when you bring it to Cascadeur or Unreal there will be no issues with the joint hierarchy naming. 
 	- Exporting with the character skin attach will cause unpredictable behavior with animations and animation transfers 
 5. Once that's done make a new scene in Cascadeur and drag the Animation Fbx that you got from mixamo. 
 6. The scene will look empty until you switch the scene mode
-![[Attachments/Pasted image 20250708233753.png]]
+![Pasted image 20250708233753](Attachments/Pasted%20image%2020250708233753.png)
 Click the arrow next to the respective posing mode and select the "joint" mode
-![[Attachments/Screenshot 2025-07-08 233841.jpg]]
+![Screenshot 2025-07-08 233841](Attachments/Screenshot%202025-07-08%20233841.jpg)
 
 7. Select All the joints and all the keyframes of the animation scene and click "**copy interval**" 
-![[Attachments/Pasted image 20250708234215.png]]
+![Pasted image 20250708234215](Attachments/Pasted%20image%2020250708234215.png)
 
 8. Good back to the scene with UE5 Manny or Quin highlight/select all the joints Hit paste interval and boom! You have a basis for animation you can tinker with. Add in-betweens using "SHIFT+" or Remove them with "SHIFT-". Delete keyframes whatever you want. 
-![[Attachments/Pasted image 20250708234527.png]]
+![Pasted image 20250708234527](Attachments/Pasted%20image%2020250708234527.png)
 
 **Video On how to this** lol
 
@@ -129,13 +129,13 @@ https://youtu.be/SZHVubEDifk?si=lQX4A_5gfCe8AYsQ
 ## How to kill Trajectory (use as needed)
 
 In the copier chose which axis you need
-![[../Pasted image 20250709125349.png]]
+![Pasted image 20250709125349](Attachments/Pasted%20image%2020250709125349.png)
 
 Make sure the object says center of mass 
-![[../Pasted image 20250709151239.png]]
+![Pasted image 20250709151239](Attachments/Pasted%20image%2020250709151239.png)
 
 Next hover over the edit dropdown to select paste into the interval 
-![[../Pasted image 20250709150859.png]]
+![Pasted image 20250709150859](Attachments/Pasted%20image%2020250709150859.png)
 
 The interval is the time line at the bottom with the key frames. Make sure you select the exact area or the entire timeline of the animation. 
 This will kill the trajectory so that the animation stays in place 
