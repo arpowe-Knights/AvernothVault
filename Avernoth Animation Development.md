@@ -86,7 +86,65 @@ Updating the skeleton or animation in 3rd party software would make this easy ad
 #### Video on how to do that incase you want to try it
 https://youtu.be/RqfTlAiq23Q?si=nIhUP6XqIq3zoZL6
 
+Alternatively we just import them into Cascadeur
 
 
 
+# Even more animation info 
 
+So while struggling to fix the corrupted rig in Cascadeur I've been learning more about the software itself. 
+
+### Here are a few workflow tips I think will help
+
+- In Cascadeur there are this points called Fulcrum points essentially it's the points that come into contact with a surface (on our case the ground). These are important for the autophyics feature in Cascadeur as certain motions can be made to indicate to the physics to jump or to lean character weight to one leg or the other.
+
+**Here's a short video explaining Fulcrums**
+https://youtu.be/oKfrD1GJ0qU?si=dyO1X-NQOfALsI8t&t=179
+
+- Using Mixamo Animations And Mocap works a little weird in Cascadeur. You can't directly send animations into Cascadeur because It has no retargeting software for non Pro Users. The workaround is to 
+1. First Create a scene with a UE5 Character
+2. Export the character with only Object Selected should look like this:
+   ![[Attachments/Pasted image 20250708233034.png]]
+3. Once you export the the character take it to mixamo, find the animation you want, and upload the Character FBX you exported I name mine "MannyCAS.fbx"
+4. Once your character upload you now want to export that character from mixamo without the character so purely the animation this step is important.
+	- It's important because Mixamo retargets the animation to the character's Rig so when you bring it to Cascadeur or Unreal there will be no issues with the joint hierarchy naming. 
+	- Exporting with the character skin attach will cause unpredictable behavior with animations and animation transfers 
+5. Once that's done make a new scene in Cascadeur and drag the Animation Fbx that you got from mixamo. 
+6. The scene will look empty until you switch the scene mode
+![[Attachments/Pasted image 20250708233753.png]]
+Click the arrow next to the respective posing mode and select the "joint" mode
+![[Attachments/Screenshot 2025-07-08 233841.jpg]]
+
+7. Select All the joints and all the keyframes of the animation scene and click "**copy interval**" 
+![[Attachments/Pasted image 20250708234215.png]]
+
+8. Good back to the scene with UE5 Manny or Quin highlight/select all the joints Hit paste interval and boom! You have a basis for animation you can tinker with. Add in-betweens using "SHIFT+" or Remove them with "SHIFT-". Delete keyframes whatever you want. 
+![[Attachments/Pasted image 20250708234527.png]]
+
+**Video On how to this** lol
+
+https://youtu.be/SZHVubEDifk?si=lQX4A_5gfCe8AYsQ
+
+
+## How to kill Trajectory (use as needed)
+
+In the copier chose which axis you need
+![[../Pasted image 20250709125349.png]]
+
+Make sure the object says center of mass 
+![[../Pasted image 20250709151239.png]]
+
+Next hover over the edit dropdown to select paste into the interval 
+![[../Pasted image 20250709150859.png]]
+
+The interval is the time line at the bottom with the key frames. Make sure you select the exact area or the entire timeline of the animation. 
+This will kill the trajectory so that the animation stays in place 
+
+
+## Cascadeur Tips when animating video
+
+https://youtu.be/EefecntjXdk
+
+## Animations to reference video
+
+https://youtu.be/FmMjujPuD3k
