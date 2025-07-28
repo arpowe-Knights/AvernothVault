@@ -141,10 +141,10 @@ The interval is the time line at the bottom with the key frames. Make sure you s
 This will kill the trajectory so that the animation stays in place 
 
 
-## Cascadeur Tips when animating video
+## Cascadeur Tips when animating video (Watch)
 
 https://youtu.be/EefecntjXdk
 
-## Animations to reference video
+## Animations to reference video (Work on)
 
 https://youtu.be/FmMjujPuD3k
